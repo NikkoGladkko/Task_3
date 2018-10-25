@@ -8,24 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		8C0DF694218238450029C838 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0DF693218238450029C838 /* AppDelegate.m */; };
-		8C0DF697218238450029C838 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0DF696218238450029C838 /* ViewController.m */; };
 		8C0DF69A218238450029C838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0DF698218238450029C838 /* Main.storyboard */; };
 		8C0DF69C218238460029C838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0DF69B218238460029C838 /* Assets.xcassets */; };
 		8C0DF69F218238460029C838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0DF69D218238460029C838 /* LaunchScreen.storyboard */; };
 		8C0DF6A2218238460029C838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0DF6A1218238460029C838 /* main.m */; };
+		8C0DF6D621825F080029C838 /* AnotherBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0DF6D521825F080029C838 /* AnotherBalance.m */; };
+		8C0DF6D921825FBB0029C838 /* AnotherBalancesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0DF6D821825FBB0029C838 /* AnotherBalancesManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C0DF68F218238450029C838 /* Task_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0DF692218238450029C838 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8C0DF693218238450029C838 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8C0DF695218238450029C838 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8C0DF696218238450029C838 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8C0DF699218238450029C838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C0DF69B218238460029C838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C0DF69E218238460029C838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C0DF6A0218238460029C838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C0DF6A1218238460029C838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C0DF6D421825F080029C838 /* AnotherBalance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnotherBalance.h; sourceTree = "<group>"; };
+		8C0DF6D521825F080029C838 /* AnotherBalance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnotherBalance.m; sourceTree = "<group>"; };
+		8C0DF6D721825FBB0029C838 /* AnotherBalancesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnotherBalancesManager.h; sourceTree = "<group>"; };
+		8C0DF6D821825FBB0029C838 /* AnotherBalancesManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnotherBalancesManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +61,12 @@
 		8C0DF691218238450029C838 /* Task_3 */ = {
 			isa = PBXGroup;
 			children = (
+				8C0DF6D421825F080029C838 /* AnotherBalance.h */,
+				8C0DF6D521825F080029C838 /* AnotherBalance.m */,
+				8C0DF6D721825FBB0029C838 /* AnotherBalancesManager.h */,
+				8C0DF6D821825FBB0029C838 /* AnotherBalancesManager.m */,
 				8C0DF692218238450029C838 /* AppDelegate.h */,
 				8C0DF693218238450029C838 /* AppDelegate.m */,
-				8C0DF695218238450029C838 /* ViewController.h */,
-				8C0DF696218238450029C838 /* ViewController.m */,
 				8C0DF698218238450029C838 /* Main.storyboard */,
 				8C0DF69B218238460029C838 /* Assets.xcassets */,
 				8C0DF69D218238460029C838 /* LaunchScreen.storyboard */,
@@ -141,9 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C0DF697218238450029C838 /* ViewController.m in Sources */,
 				8C0DF6A2218238460029C838 /* main.m in Sources */,
+				8C0DF6D921825FBB0029C838 /* AnotherBalancesManager.m in Sources */,
 				8C0DF694218238450029C838 /* AppDelegate.m in Sources */,
+				8C0DF6D621825F080029C838 /* AnotherBalance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

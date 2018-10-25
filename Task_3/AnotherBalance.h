@@ -8,10 +8,24 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
+
+typedef NSDictionary JSON;
+
 
 @interface AnotherBalance : NSObject
 
+@property (assign, nonatomic) int accountId;
+@property (strong, nonatomic) NSString *currentTime;
+@property (strong, nonatomic) NSString *balanceName;
+@property (strong, nonatomic) NSString *balanceResult;
+@property (strong, nonatomic) NSString *baseBalanceValue;
+@property (strong, nonatomic) NSString *iconURL;
+@property (strong, nonatomic) NSString *accountName;
+@property (strong, nonatomic) NSString *tariff;
+
+- (instancetype)initWithJSON:(JSON *)json;
+- (NSMutableArray *)getDetailBalanceFromJSON:(JSON *)json;
+
 @end
 
-NS_ASSUME_NONNULL_END
+

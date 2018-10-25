@@ -6,12 +6,14 @@
 //  Copyright © 2018 Evgenij Gostev. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 @interface AnotherBalancesManager : NSObject
 
+@property (strong, nonatomic) NSMutableArray *balances;
+@property (strong, nonatomic) NSMutableArray *details;
+
 @end
 
-NS_ASSUME_NONNULL_END
