@@ -9,11 +9,10 @@
 #import <UIKit/UIKit.h>
 
 
-
 @interface AnotherBalancesManager : NSObject
 
 @property (strong, nonatomic) NSMutableArray *balances;
+
 @property (strong, nonatomic) NSMutableArray *details;
 
 @end
-
